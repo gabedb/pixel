@@ -1,0 +1,77 @@
+body {
+	background-color: white;
+}
+/*table {
+	border: 1px solid black;
+}
+td {
+	border: 1px solid black;
+}*/
+h1 {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 1em;
+	text-align: center;
+	color: black;
+}
+h3 {
+	font-family: helvetica;
+	font-size: 0.9em;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+}
+h5 {
+	font-family: helvetica;
+	font-weight: lighter;
+	font-size: 0.8em;
+	text-align: center;
+	color: black;
+}
+hr {
+	width: 95%;
+	height: 0.5px;
+	border: 0.5px solid black;
+}
+a.nav {
+	text-decoration: none;
+    color: black;
+    font-family: arial;
+    text-transform: uppercase;
+    font-size: 0.65em;
+}
+#maintext {
+	font-family:Arial;
+	font-size: 3em;
+	position: relative;
+	margin: auto;
+}
+p.abouttext {
+	font-family: helvetica;
+	font-size: 0.85em;
+	font-weight: lighter;
+}
+td.abouttext2 {
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-left: 5px;
+	vertical-align: top;
+}
+td.abouttext3 {
+	padding-bottom: 0px;
+	vertical-align: bottom;
+}
+p.sitemap {
+	position: fixed;
+	right: 4px;
+	bottom:4px;
+	font-family: helvetica;
+	font-size: 0.65em;
+	text-transform: uppercase;
+
+}
+p {
+	font-family: helvetica;
+	font-size: 0.85em;
+	text-decoration: none;
+}
