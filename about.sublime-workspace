@@ -1,0 +1,326 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"word",
+				"word3"
+			],
+			[
+				"random",
+				"randomNumber"
+			],
+			[
+				"rand",
+				"randomNumber"
+			],
+			[
+				"ran",
+				"randomNumber"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"img",
+				"imgData"
+			],
+			[
+				"mag",
+				"magChoice"
+			],
+			[
+				"user",
+				"userChoice"
+			],
+			[
+				"Far",
+				"Fahrenheit"
+			],
+			[
+				"background",
+				"backgroundColor"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"align",
+				"text-align"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"color",
+				"outline-color"
+			],
+			[
+				"bacg",
+				"background-color"
+			],
+			[
+				"bacgr",
+				"background-image"
+			],
+			[
+				"bold",
+				"bold"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS17-InClass1 (Li's).htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/Saints/MIS3690-Homework5.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS21-InClass2.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS21-InClass1.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/Animation Demo.html",
+		"/Users/gabe/Desktop/Q3Mid-Solution.htm",
+		"/Users/gabe/Desktop/Q4Mid-Solution.htm",
+		"/Users/gabe/Desktop/index(1).htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/TPV1/CNAME",
+		"/Users/gabe/Documents/Courses/Web Technologies/TPV1/contact.html",
+		"/Users/gabe/Documents/Courses/Web Technologies/TPV1/about-me.html",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS15-InClass2.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS17-InClass1.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS17-InClass2.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS18-ImageDemo.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS18-InClass.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS15-InClass1.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS16-InClass1.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS14-InClass.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS16-InClass2.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS13-InClass.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/Homework 4.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/low.htm",
+		"/Users/gabe/Desktop/for demo.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/Conditions_demo.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/conditions.html",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS08-InClass.htm",
+		"/Users/gabe/Desktop/TPV1/style1.css",
+		"/Users/gabe/Desktop/TPV1/contact.html",
+		"/Users/gabe/Desktop/TPV1/sitemap.html",
+		"/Users/gabe/Desktop/TPV1/work.html",
+		"/Users/gabe/Desktop/TPV1/index.html",
+		"/Users/gabe/Desktop/TPV1/about.html",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/js_demo.html",
+		"/Users/gabe/Desktop/CS13-InClass.htm",
+		"/Users/gabe/Desktop/CS11-InClass-demo.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/Saints/MIS3690-Homework3.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS07-InClass.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS07-InClass.css",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/MIS3690-Homework3.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/mailer.php",
+		"/Users/gabe/Desktop/mailer.php",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/MIS3690-Homework#2.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS07-InClass-2.html",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/proposal.html",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS03-InClass.html",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS01-InClass.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/Index.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS06-InClass-2.htm",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS06-InClass.html",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS05-InClass.htm",
+		"/Users/gabe/Desktop/index.html",
+		"/Users/gabe/Documents/Courses/Web Technologies/InClass Assignments/CS3-InClass.html",
+		"/Users/gabe/Downloads/Ohms Law.cmbl",
+		"/Users/gabe/Desktop/Test 1.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"result",
+			"images/",
+			"MULT",
+			"cal",
+			"text",
+			"age",
+			"img",
+			"style",
+			"form",
+			"age",
+			"Winston Churchill",
+			"–"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "about.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 115.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
