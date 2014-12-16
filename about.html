@@ -4,7 +4,18 @@
 	    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	    <title>About - pixel</title>
     	<link rel="stylesheet" type="text/css" href="style1.css">
-	    </style>
+    	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    	<script>
+		$(document).ready(function(){
+			$(".abouttext").mouseover(function(){
+		  	// alert("Your jQuery is showing.");
+		    	$(".higher1").addClass("higher");
+	    	$(".abouttext").mouseout(function(){
+				$(".higher1").removeClass("higher");
+			});
+		  });
+		});
+		</script>
   	</head>
 <body width="100%">
 
@@ -19,6 +30,27 @@
 	</table>
 
 	<hr>
+
+	<h1><a href="work.html">See more of our work</a></h1>
+
+	<table width="90%" align="center">
+		<tr>
+			<td class="abouttext3"><h3>We'll be like your meeting bffs</h3></td>
+			<td class="abouttext3"><h3>We make cool stuff happen</h3></td>
+			<td class="abouttext3"><h3>Join us. Be a pixel.</h3></td>
+		</tr>
+		<tr>
+			<td class="abouttext2">
+				<p class="abouttext">We’re a bunch of the best production folks in the west! (north, south, and east too). Like-minded people with technical know-how and huge hearts. People who love knowing that the work they do matters. And that the messages we help deliver educate, motivate, and improve the lives of others. <span class="higher1">It’s about helping you deliver your message and engage with your people.</span> It’s your time on stage. It’s your time to shine. And you’ll be glad to know we’ve got your back. We’ll be like your meeting bff’s – your very geeky bff’s.</p>
+			</td>
+			<td class="abouttext2">
+				<p class="abouttext">Sure, we do all the hi-tech stuff you'd expect. We expertly set up and operate state-of-the-art systems. Focus projectors for the clearest brightest images. We tune crystal clear sound systems. Design, build, and light beautiful stages. We setup and monitor breakout room with TLC. We even write scripts and coach speakers. But, we never lose sight of what we really do: Connect people. Engage presenters with audiences. <span class="higher1">Deliver meaningful and powerful messages.</span></p>
+			</td>
+			<td class="abouttext2">
+				<p class="abouttext">We think of pixel more as a community than a company. We’re a community of associates, customers, and vendor-partners. <span class="higher1">We have a refreshing and contagious culture inspired by the desire to serve others</span> and help our clients deliver messages that truly improve our world. We invite you to be a pixel and shine bright!</p>
+			</td>
+		</tr>
+	</table>
 
 	<p class="sitemap"><a href="sitemap.html">Site Map</a></p>
 
@@ -36,29 +68,6 @@
 		<source src="reel.mp4" type="video/mp4">
 		Your browser does not support the video tag.
 	</video>
-
-	<h1><a href="work.html">See more of our work</a></h1>
-
-	<table width="90%" align="center">
-		<tr>
-			<td class="abouttext3"><h3>We'll be like your meeting bffs</h3></td>
-			<td class="abouttext3"><h3>We make cool stuff happen</h3></td>
-			<td class="abouttext3"><h3>Join us. Be a pixel.</h3></td>
-		</tr>
-		<tr>
-			<td class="abouttext2">
-				<p class="abouttext">We’re a bunch of the best production folks in the west! (north, south, and east too). Like-minded people with technical know-how and huge hearts. People who love knowing that the work they do matters. And that the messages we help deliver educate, motivate, and improve the lives of others. It’s about helping you deliver your message and engage with your people. It’s your time on stage. It’s your time to shine. And you’ll be glad to know we’ve got your back. We’ll be like your meeting bff’s – your very geeky bff’s.</p>
-			</td>
-			<td class="abouttext2">
-				<p class="abouttext">Sure, we do all the hi-tech stuff you'd expect. We expertly set up and operate state-of-the-art systems. Focus projectors for the clearest brightest images. We tune crystal clear sound systems. Design, build, and light beautiful stages. We setup and monitor breakout room with TLC. We even write scripts and coach speakers. But, we never lose sight of what we really do: Connect people. Engage presenters with audiences. Deliver meaningful and powerful messages.</p>
-			</td>
-			<td class="abouttext2">
-				<p class="abouttext">We think of pixel more as a community than a company. We’re a community of associates, customers, and vendor-partners. We have a refreshing and contagious culture inspired by the desire to serve others and help our clients deliver messages that truly improve our world. We invite you to be a pixel and shine bright!</p>
-			</td>
-		</tr>
-	</table>
-
-
 
 </body>
 </html>

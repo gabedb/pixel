@@ -4,7 +4,20 @@
 	    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	    <title>Our Work - pixel</title>
     	<link rel="stylesheet" type="text/css" href="style1.css">
-	    </style>
+    	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    	<script>
+		$(document).ready(function(){
+			$(".workers").mouseover(function(){
+		  	// alert("Your jQuery is showing.");
+		    	$(this).removeClass("worker");
+	    	$(".workers").mouseout(function(){
+				$(".workers").addClass("worker");
+			});
+		  });
+		});
+		</script>
+
+
   	</head>
 <body width="100%">
 
@@ -26,24 +39,24 @@
 
 	<table width="80%" id="portfolio">
 		<tr>
-			<td><img src="images/work/work1.jpg" width="100%"></td>
-			<td><img src="images/work/work2.jpg" width="100%"></td>
+			<td><img src="images/work/work1.jpg" class="workers"></td>
+			<td><img src="images/work/work2.jpg" class="workers"></td>
 		</tr>
 		<tr>
 			<td><p class="work1">inform</p></td>
 			<td><p class="work1">engage</p></td>
 		</tr>
 		<tr>
-			<td><img src="images/work/work3.jpg" width="100%"></td>
-			<td><img src="images/work/work4.jpg" width="100%"></td>
+			<td><img src="images/work/work3.jpg" class="workers"></td>
+			<td><img src="images/work/work4.jpg" class="workers"></td>
 		</tr>
 		<tr>
 			<td><p class="work1">amaze</p></td>
 			<td><p class="work1">on stage</p></td>
 		</tr>
 		<tr>
-			<td><img src="images/work/work5.jpg" width="100%"></td>
-			<td><img src="images/work/work6.jpg" width="100%"></td>
+			<td><img src="images/work/work5.jpg" class="workers"></td>
+			<td><img src="images/work/work6.jpg" class="workers"></td>
 		</tr>
 		<tr>
 			<td><p class="work1">back stage</p></td>

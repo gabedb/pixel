@@ -3,6 +3,69 @@
     <head>
 	    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	    <title>pixel - live event production</title>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+
+			$(".teammate").mouseover(function() {
+				// alert("Your jQuery is showing.");
+				$(this).fadeTo("slow",0.15);
+			});
+  			$(".teammate").mouseout(function(){
+				$(this).fadeTo("fast", 1);
+			});
+			
+			// alert("Your jQ is showing");
+
+			$('.slickly').slick({
+	  			// setting-name: autoplay
+	  			arrows: true,
+	  			autoplay: true,
+	  			autoplaySpeed: 5000,
+	  			pauseOnHover: true,
+	  			useCSS: true,
+	  			centerMode: true,
+  				centerPadding: '60px',
+  				slidesToShow: 3,
+  				waitForAnimate: true,
+  				dots: true,
+  				responsive: [
+				    {
+				      breakpoint: 768,
+				      settings: {
+				        arrows: false,
+				        centerMode: true,
+				        centerPadding: '40px',
+				        slidesToShow: 3
+				      }
+				    },
+				    {
+				      breakpoint: 480,
+				      settings: {
+				        arrows: false,
+				        centerMode: true,
+				        centerPadding: '40px',
+				        slidesToShow: 1
+				      }
+				    }
+				  ]
+  			});
+  			$("#location").hide();
+  			$("#locationbutton").click(function() {
+  				$("#location").show();
+  			});
+
+		});
+	</script>
+
     	<link rel="stylesheet" type="text/css" href="style1.css">
 	    </style>
 	    <meta name="description" content="pixel:) simplifies live event production to meet your needs.">
@@ -29,32 +92,41 @@
 		<img src="images/stage.jpg" alt="Stage" title="Stage" width="100%">
 	</div>
 
+	<div class="slickly" align="center" width="600px">
+		<div><img src="images/work/work1.jpg"></div>
+		<div><img src="images/work/work2.jpg"></div>
+		<div><img src="images/work/work3.jpg"></div>
+		<div><img src="images/work/work4.jpg"></div>
+		<div><img src="images/work/work5.jpg"></div>
+	</div>
+
 	<table width="90%" align="center">
 		<tr>
-			<td colspan="3"><h1>Our Crew</h1></td>
+			<td colspan="3"><h1>Our Crew</h1><button type="button" id="locationbutton">More Info</button></td>
 		</tr>
 		<tr>
-			<td><img src="images/mike.jpg" alt="Mike" title="Mike" width="100%"></td>
-			<td><img src="images/tim.jpg" alt="Tim" title="Tim" width="100%"></td>
-			<td><img src="images/charity.jpg" alt="Charity" title="Charity" width="100%"></td>
+			<td><img src="images/mike.jpg" alt="Mike" title="Mike" width="100%" class="teammate"></td>
+			<td><img src="images/tim.jpg" alt="Tim" title="Tim" width="100%" class="teammate"></td>
+			<td><img src="images/charity.jpg" alt="Charity" title="Charity" width="100%" class="teammate"></td>
 		</tr>
 		<tr>
-			<td><h3>Mike</h3><br></td>
-			<td><h3>Tim</h3><br></td>
+			<td><h3>Mike</h3></td>
+			<td><h3>Tim</h3></td>
 			<td><h3>Charity</h3></td>
 		</tr>
-		<tr>
+		<tr id="location">
 			<td><h5>Nashville</h5></td>
 			<td><h5>Winchester</h5></td>
 			<td><h5>Nashville</h5></td>
 		</tr>
 	</table>
-	<div>
+<!-- 	<div>
 		<audio autoplay="autoplay" controls> 
 		<source src="makemefeel.mp3" type="audio/mpeg" /> 
 		Your browser does not support the audio element. 
 		</audio>
 	</div>
+ -->
 
 </body>
 </html>

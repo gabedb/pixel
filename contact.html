@@ -5,6 +5,26 @@
 	    <title>Contact - pixel</title>
     	<link rel="stylesheet" type="text/css" href="style1.css">
 	    </style>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	    <script type="text/javascript" src="javascripts/jquery.bvalidator.js"></script>
+	    <link rel="stylesheet" type="text/css" href="css/bvalidator.css">
+
+	    <script type="text/javascript">
+    		$(document).ready(function () {
+    			// alert("Your jQ is showing!");
+    			var options6 = {
+    			position: {x:'right', y:'center'},
+    			};
+	        	$('#contactform').bValidator();
+	        
+
+        	$("#toggler").click(function () {
+    				$("#panel").slideToggle("slow");
+    		});
+    		});
+</script>
+
   	</head>
 <body width="100%">
 
@@ -22,19 +42,29 @@
 
 	<p class="sitemap"><a href="sitemap.html">Site Map</a></p>
 
-   	<div id="form" width="85%" align="center">
+   	<h1 id="cta"> Host your next meeting with pixel:) </h1> 
+   	<div align="center"><button type="button" id="toggler">Get Started</button>
 
-   		<form method="post">
+   	<a href="about.html"><button type="button" id="learnmore">Learn More</button></a></div>
 
-   		<h1> Project Interest </h1>
+   	<div id="panel" width="85%" align="center">
+
+   		<form method="POST" action="" id="contactform">
 
 	   	<p>
-	   	Are you interested in hiring pixel to do your next meeting or conference? If so, please fill out the form below! <br><br>
-	   	Name:
-		<input type="text" name="clientname" maxlength="25" size="20" />
+	   	Great, tell us more about yourself and your project!
+
+	   	<br><br>
+	   	
+			   	Name:
+				
+				<input type="text" name="clientname" maxlength="25" size="20" data-bvalidator="required, alpha"/>
+		
 		<br><br>
-		Email:
-		<input type="text" name="email" maxlength="25" size="20" />
+		
+
+				Email:
+				<input type="text" type="email" size="20" data-bvalidator="required,email"/>
 		</p>
 
 
@@ -43,14 +73,12 @@
 		<p><textarea name="projectdescription" row="5" cols="29"></textarea></p>
 
 
-		<button type="submit" name="submit" value="submit">
-			Submit
-		</button>
 
-		<button type="reset" name="reset" value="reset">
-			Reset
-		</button>
+		<input type="submit" name="submit" value="Submit">
 
+		<input type="reset" name="reset" value="Reset">
+
+		</form>
 
 	</div>
 
